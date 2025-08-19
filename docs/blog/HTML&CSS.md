@@ -1,7 +1,5 @@
 # HTML&CSS
 
-# HTML&CSS
-
 <kbd>标签
 
 ​`\<kbd\>`​标签定义键盘文本样式。
