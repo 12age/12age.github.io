@@ -2,31 +2,34 @@ site_name: Rage.的个人网站
 site_url: https://12age.github.io/mymkdocs/
 site_author: Rage.
 
-#主题
+# 主题配置
 theme:
-  name: material #主题
+  name: material  # 主题名称
   palette:
-  primary: yellow
-
-# #白天黑夜切换
-# theme:
-#   palette:
-#       # Palette toggle for light mode
-#     - scheme: default
-#       toggle:
-#         icon: material/brightness-7
-#         name: Switch to dark mode
-
-#     # Palette toggle for dark mode
-#     - scheme: slate
-#       toggle:
-#         icon: material/brightness-4
-#         name: Switch to light mode
+    # 白天/黑夜切换配置（列表项，属于 palette 的子项）
+    - scheme: default  # 浅色模式
+      #primary: yellow  # 主色调（正确缩进：比 palette 多 2 空格）
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate    # 深色模式
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 
+extra:
+  generator: false #是否删除页脚显示“使用 MkDocs 材料制造”
+  social:
+    # - icon: fontawesome/brands/weixin
+    #   link: #https://s1.imagehub.cc/images/2024/02/02/bb9ee71b03ee7a3b87caad5cc4bcebff.jpeg
+    - icon: fontawesome/brands/github
+      link: https://github.com/12age
 
-
-
+      name: Wechat
 nav:
   - 每日面试题:
     - 2025年8月19日: blog/测试.md
+
+
+
