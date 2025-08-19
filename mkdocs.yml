@@ -16,11 +16,15 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-
-
+  features:
+    - navigation.tabs #启用标签栏
+    - navigation.tabs.sticky #启用标签栏的粘性
+    - navigation.tracking #启用页面跟踪 复制当前页面 URL，就能精确定位到当前段落，方便分享与回访
+    - navigation.sections #启用页面标题
+    - navigation.path #启用页面路径
 extra:
 
-  generator: false #是否删除页脚显示“使用 MkDocs 材料制造”
+  generator: false #是否删除页脚显示“使用 MkDocs 构建”
   social:
     # - icon: fontawesome/brands/weixin
     #   link: #https://s1.imagehub.cc/images/2024/02/02/bb9ee71b03ee7a3b87caad5cc4bcebff.jpeg
