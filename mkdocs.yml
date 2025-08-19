@@ -1,5 +1,32 @@
 site_name: Rage.的个人网站
 site_url: https://12age.github.io/mymkdocs/
 site_author: Rage.
+
+#主题
 theme:
   name: material #主题
+  palette:
+  primary: yellow
+
+# #白天黑夜切换
+# theme:
+#   palette:
+#       # Palette toggle for light mode
+#     - scheme: default
+#       toggle:
+#         icon: material/brightness-7
+#         name: Switch to dark mode
+
+#     # Palette toggle for dark mode
+#     - scheme: slate
+#       toggle:
+#         icon: material/brightness-4
+#         name: Switch to light mode
+
+
+
+
+
+nav:
+  - 每日面试题:
+    - 2025年8月19日: blog/测试.md
