@@ -70,10 +70,11 @@
     <p class="subtitle">记录生活与技术</p>
     <!-- 卡片 -->
     <div class="cards">
-        <a class="card" href="blog/HTML&CSS">
+        <div class="card">
             <h3>前端学习</h3>
-            <p>HTML&CSS入门学习</p>
-        </a>
+            <a href="blog/HTML&CSS" style="color: gray;">HTML&CSS入门学习</a>
+        </div>
+
         <div class="card">
             <h3>每日面试题</h3>
             <a href="blog/2025年8月19日" style="color: gray;">2025年8月19日</a>
