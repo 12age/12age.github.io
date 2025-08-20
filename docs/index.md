@@ -66,7 +66,7 @@
             font-size: 0.85rem;
         }
     </style> <!-- 首页标题 -->
-    <h1>欢迎来到我的博客</h1>
+    <h1>Rage.的博客</h1>
     <p class="subtitle">记录生活与技术</p>
     <!-- 卡片 -->
     <div class="cards">
@@ -78,7 +78,6 @@
         <div class="card">
             <h3>每日面试题</h3>
             <a href="blog/2025年8月19日" style="color: gray;">2025年8月19日</a>
-
         </div>
         <div class="card">
             <h3>关于我</h3>
@@ -86,5 +85,5 @@
         </div>
     </div>
     <!-- 页脚 -->
-    <footer> © 2025 我的个人博客 </footer>
+    <footer> © 2025 Rage.的个人博客 </footer>
 </div>
