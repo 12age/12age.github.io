@@ -1,11 +1,4 @@
 
-
-
-
-
-
-
-
 <div id="pb-home">
     <!-- 引入 live2d-widget -->
     <script src="https://unpkg.com/live2d-widget@3.1.4/lib/L2Dwidget.min.js"></script>

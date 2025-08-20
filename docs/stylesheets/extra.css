@@ -65,20 +65,12 @@
         }
 
 
-                /* 固定右下角 */
         #live2d-widget {
             position: fixed !important;
             bottom: 0 !important;
             right: 0 !important;
             z-index: 9999;
             pointer-events: none;
-            /* 避免遮挡点击 */
-        }
-
-        /* 屏幕过窄时缩小 */
-        @media (max-width: 400px) {
-            #live2d-widget {
-                transform: scale(0.5);
-                transform-origin: bottom right;
-            }
+            transform-origin: bottom right;
+            /* 缩放基点在右下角 */
         }
