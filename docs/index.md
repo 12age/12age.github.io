@@ -1,4 +1,4 @@
-<!-- 引入 Live2D Widget 的脚本 -->
+<!-- 引入 Live2D Widget 的脚本
 <script src="https://unpkg.com/live2d-widget@3.1.4/lib/L2Dwidget.min.js"></script>
 <script>
     L2Dwidget.init({
@@ -10,10 +10,10 @@
         },
         display: {
             position: 'right', // 显示在右下角
-            width: 200,
+            width: 100,
             height: 400,
             hOffset: 40, // 水平偏移
-            vOffset: 55, // 垂直偏移
+            vOffset: -90, // 垂直偏移
         },
         mobile: {
             show: true, // 移动端也显示
@@ -23,7 +23,7 @@
             opacityOnHover: 1, // 鼠标移上去透明度
         },
     });
-</script>
+</script> -->
 <div id="pb-home">
 
     <!-- 首页标题 -->
