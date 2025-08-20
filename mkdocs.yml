@@ -5,6 +5,7 @@ site_author: Rage.
 # 主题配置
 theme:
   name: material  # 主题名称
+  custom_dir: overrides
   palette:
     # 白天/黑夜切换配置（列表项，属于 palette 的子项）
     - scheme: default  # 浅色模式
@@ -22,10 +23,15 @@ theme:
     - navigation.tracking #启用页面跟踪 复制当前页面 URL，就能精确定位到当前段落，方便分享与回访
     - navigation.sections #启用页面标题
     - navigation.path #启用页面路径
-    - navigation.expand
-    - navigation.indexes #启用章节索引页面
-extra:
+    - navigation.expand #让左侧的文档目录在页面加载时自动展开所有层级
+    - navigation.indexes #将文档直接附加到节
+    - navigation.top # 返回顶部的按钮 在上滑时出现
+    - content.code.copy #代码复制
+    - content.action.view #在页面内容区域显示“查看源码”按钮
+    - content.code.annotate
+  language: zh # 一些提示性的文字会变成中文
 
+extra:
   generator: false #是否删除页脚显示“使用 MkDocs 构建”
   social:
     # - icon: fontawesome/brands/weixin
@@ -35,28 +41,49 @@ extra:
       name: GitHub
 
 markdown_extensions:
+  - abbr
+  - attr_list
   - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.snippets
-  - pymdownx.extra
-  - pymdownx.mark
-  - pymdownx.critic
+  - def_list
+  - footnotes
+  - md_in_html
+  # - meta # 支持Markdown文件上方自定义标题标签等
   - pymdownx.caret
+  - pymdownx.betterem
+  - pymdownx.critic
+  - pymdownx.details
   - pymdownx.inlinehilite
-  - pymdownx.magiclink
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.smartsymbols
   - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format:
+            !!python/name:pymdownx.superfences.fence_code_format # 代码块高亮插件
+  - pymdownx.arithmatex: # latex支持
+      generic: true
   - toc:
       toc_depth: 3
       permalink: true
+  - pymdownx.highlight: # 代码块高亮
+      anchor_linenums: true
+      linenums: true # 显示行号
+      # auto_title: true # 显示编程语言名称
 
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - 每日面试题:
-    - blog/每日面试题/index.md
+    - blog/每日面试题/每日面试题目录.md
     - 2025年8月19日: blog/每日面试题/2025年8月19日.md
+    - 2025年8月22日: blog/每日面试题/2025年8月22日.md
   - 前端:
     - HTML&CSS: blog/HTML&CSS.md
-
 
 
