@@ -1,30 +1,51 @@
-<!-- 引入 Live2D Widget 的脚本
-<script src="https://unpkg.com/live2d-widget@3.1.4/lib/L2Dwidget.min.js"></script>
-<script>
-    L2Dwidget.init({
-        model: {
-            // 这里用现成的模型地址（shizuku）
-            jsonPath:
-                'https://unpkg.com/live2d-widget-model-shizuku/assets/shizuku.model.json',
-            scale: 1,
-        },
-        display: {
-            position: 'right', // 显示在右下角
-            width: 100,
-            height: 400,
-            hOffset: 40, // 水平偏移
-            vOffset: -90, // 垂直偏移
-        },
-        mobile: {
-            show: true, // 移动端也显示
-        },
-        react: {
-            opacityDefault: 1, // 默认透明度
-            opacityOnHover: 1, // 鼠标移上去透明度
-        },
-    });
-</script> -->
+
+
+
+
+
+
+
+
 <div id="pb-home">
+    <!-- 引入 live2d-widget -->
+    <script src="https://unpkg.com/live2d-widget@3.1.4/lib/L2Dwidget.min.js"></script>
+    <script>
+        // 初始化 Live2D
+        L2Dwidget.init({
+            model: {
+                jsonPath: 'https://unpkg.com/live2d-widget-model-shizuku/assets/shizuku.model.json',
+                scale: 1
+            },
+            display: {
+                position: 'right',
+                width: 200,
+                height: 400
+            },
+            react: {
+                opacityDefault: 1,
+                opacityOnHover: 1
+            }
+        });
+
+        // 动态缩放逻辑
+        function adjustLive2D() {
+            const widget = document.getElementById('live2d-widget');
+            if (!widget) return;
+
+            const ww = window.innerWidth;
+            let scale = 1;
+
+            if (ww < 400) {
+                scale = ww / 400;   // 小于 400px 时，按比例缩放
+            }
+
+            widget.style.transform = `scale(${scale})`;
+        }
+
+        // 页面加载和窗口变化时执行
+        window.addEventListener('resize', adjustLive2D);
+        window.addEventListener('load', adjustLive2D);
+    </script>
 
     <!-- 首页标题 -->
     <h1>Rage.的博客</h1>
