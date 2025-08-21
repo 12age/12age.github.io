@@ -17,10 +17,10 @@
             <div style="color: gray;">好好学习，天天向上！</div>
         </a>
 
-        <div class="card">
+        <a href="https://resume.hrage.top/" target="_blank" class="card">
             <h3>关于我</h3>
-            <p>我的简介与联系方式</p>
-        </div>
+            <div style="color: gray;">我的简介与联系方式</div>
+        </a>
     </div>
 
     <!-- 页脚 -->
