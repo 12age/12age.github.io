@@ -74,3 +74,23 @@
             transform-origin: bottom right;
             /* 缩放基点在右下角 */
         }
+
+        /* 引入字体 */
+        @import url('https://static.zeoseven.com/zsft/292/main/result.css');
+
+        body {
+            font-family: "LXGW WenKai";
+            font-weight: normal;
+        }
+
+        /* 切换字体后可能返回顶部按钮会在个别浏览器显示异常 建议在extra.css里加入 */
+        button.md-top {
+            font-family: LXGW WenKai;
+            /* 修改字体 */
+            font-size: 16px;
+            /* 修改字体大小 */
+            font-weight: bold;
+            /* 修改字体粗细 */
+            color: #518FC1;
+            /* 修改字体颜色 */
+        }

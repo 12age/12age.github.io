@@ -5,7 +5,7 @@ site_author: Rage.
 # 主题配置
 theme:
   name: material  # 主题名称
-  custom_dir: overrides
+  custom_dir: docs/overrides
   palette:
     # 白天/黑夜切换配置（列表项，属于 palette 的子项）
     - scheme: default  # 浅色模式
@@ -39,7 +39,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/12age
       name: GitHub
-
+copyright: Copyright &copy; 2022-2025 Rage. # 左下角的版权声明
 markdown_extensions:
   - abbr
   - attr_list
@@ -76,7 +76,11 @@ markdown_extensions:
 
 
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/extra.css # 自定义的CSS
+  - https://static.zeoseven.com/zsft/292/main/result.css #引入字体
+
+extra_javascript:
+  - javascripts/extra.js #自定义的javascript
 
 nav:
   - 每日面试题:
