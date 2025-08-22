@@ -90,6 +90,9 @@ nav:
     - 2025年8月19日: blog/每日面试题/2025年8月19日.md
   - 易错易忘易混淆总结:
     - Controller与Mapper接收参数: blog/易错易忘易混淆总结/Controller与Mapper接收参数.md
+    - MyBatis同名表不同库: blog/易错易忘易混淆总结/[MyBatis]同名表不同库.md
+    - MyBatis + PageHelper 实现分页: blog/易错易忘易混淆总结/MyBatis + PageHelper 实现分页.md
+
   - 前端:
     - HTML&CSS: blog/前端/HTML&CSS.md
 
