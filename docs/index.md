@@ -22,6 +22,11 @@
             <div style="color: gray;">好好学习，天天向上！</div>
         </a>
 
+        <a href="blog/易错易忘易混淆总结/易错易忘易混淆总结目录/" class="card">
+            <h3>易错易忘易混淆总结</h3>
+            <div style="color: gray;">实在是太容易混乱了</div>
+        </a>
+
         <a href="blog/网站推荐/网站推荐/" class="card">
             <h3>网站推荐</h3>
             <div style="color: gray;">实用网站</div>

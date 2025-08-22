@@ -88,6 +88,8 @@ nav:
     - 2025年8月23日: blog/每日面试题/2025年8月23日.md
     - 2025年8月22日: blog/每日面试题/2025年8月22日.md
     - 2025年8月19日: blog/每日面试题/2025年8月19日.md
+  - 易错易忘易混淆总结:
+    - Controller与Mapper接收参数: blog/易错易忘易混淆总结/Controller与Mapper接收参数.md
   - 前端:
     - HTML&CSS: blog/前端/HTML&CSS.md
 
