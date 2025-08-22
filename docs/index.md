@@ -7,14 +7,29 @@
 
     <!-- 卡片 -->
     <div class="cards">
-        <a href="blog/HTML&CSS" class="card">
-            <h3>前端学习</h3>
-            <div style="color: gray;">HTML&CSS入门学习</div>
+        <a href="blog/更新计划/更新计划" class="card">
+            <h3>更新计划</h3>
+            <div style="color: gray;">缓慢更新中</div>
+        </a>
+
+        <a href="blog/起步配置/起步配置" class="card">
+            <h3>起步配置</h3>
+            <div style="color: gray;">配配配</div>
         </a>
 
         <a href="blog/每日面试题/每日面试题目录" class="card">
             <h3>每日面试题</h3>
             <div style="color: gray;">好好学习，天天向上！</div>
+        </a>
+
+        <a href="blog/网站推荐/网站推荐" class="card">
+            <h3>网站推荐</h3>
+            <div style="color: gray;">实用网站</div>
+        </a>
+
+        <a href="blog/前端/HTML&CSS" class="card">
+            <h3>前端学习</h3>
+            <div style="color: gray;">HTML&CSS入门学习</div>
         </a>
 
         <a href="https://resume.hrage.top/" target="_blank" class="card">
