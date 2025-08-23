@@ -93,6 +93,9 @@ nav:
     - MyBatis同名表不同库: blog/易错易忘易混淆总结/[MyBatis]同名表不同库.md
     - MyBatis + PageHelper 实现分页: blog/易错易忘易混淆总结/MyBatis + PageHelper 实现分页.md
     - Mybatis @Param: blog/易错易忘易混淆总结/Mybatis @Param.md
+    - MyBatis 动态 SQL: blog/易错易忘易混淆总结/MyBatis 动态 SQL.md
+    - 事务@Transactional(rollbackFor = Exception.class)和事务传播: blog/易错易忘易混淆总结/事务@Transactional(rollbackFor = Exception.class)和事务传播.md
+
 
   - 前端:
     - HTML&CSS: blog/前端/HTML&CSS.md
