@@ -5,7 +5,7 @@ site_author: Rage.
 # 主题配置
 theme:
   name: material  # 主题名称
-  custom_dir: docs/overrides
+  #custom_dir: custom_dir/
   palette:
     # 白天/黑夜切换配置（列表项，属于 palette 的子项）
     - scheme: default  # 浅色模式
