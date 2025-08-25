@@ -95,7 +95,7 @@
             /* 修改字体颜色 */
         }
 
-        :root>* {
+        :root  > *  {
             --md-primary-fg-color: #518fc1;
             --md-primary-fg-color--light: #ff4a94;
             --md-primary-fg-color--dark: #025470;

@@ -7,7 +7,7 @@ theme:
   logo: assets/雪乃logo.png
   name: material  # 主题名称
   favicon: images/雪乃.png
-  custom_dir: ./docs/overrides
+  custom_dir: overrides
   palette:
     # 白天/黑夜切换配置（列表项，属于 palette 的子项）
     - scheme: default  # 浅色模式
@@ -19,7 +19,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-        primary: custom
+        primary: custom # 请求更改主色调
   features:
     - navigation.tabs #启用标签栏
     - navigation.tabs.sticky #启用标签栏的粘性
@@ -33,6 +33,9 @@ theme:
     - content.action.view #在页面内容区域显示“查看源码”按钮
     - content.code.annotate
     - navigation.footer # 添加页脚 上一页 下一页
+    #- navigation.instant #XHR调度 会有bug 首页的背景到其他页也显示
+    #- navigation.instant.progress #XHR加载进度条
+    - toc.integrate #侧边目录展开并跟随
   language: zh # 一些提示性的文字会变成中文
 
 extra:
