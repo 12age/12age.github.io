@@ -19,6 +19,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+        primary: custom
   features:
     - navigation.tabs #启用标签栏
     - navigation.tabs.sticky #启用标签栏的粘性
@@ -31,6 +32,7 @@ theme:
     - content.code.copy #代码复制
     - content.action.view #在页面内容区域显示“查看源码”按钮
     - content.code.annotate
+    - navigation.footer # 添加页脚 上一页 下一页
   language: zh # 一些提示性的文字会变成中文
 
 extra:
