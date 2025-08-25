@@ -4,7 +4,9 @@ site_author: Rage.
 
 # 主题配置
 theme:
+  logo: assets/雪乃logo.png
   name: material  # 主题名称
+  favicon: images/雪乃.png
   custom_dir: ./docs/overrides
   palette:
     # 白天/黑夜切换配置（列表项，属于 palette 的子项）
