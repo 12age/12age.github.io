@@ -35,7 +35,7 @@ theme:
     - navigation.footer # 添加页脚 上一页 下一页
     #- navigation.instant #XHR调度 会有bug 首页的背景到其他页也显示
     #- navigation.instant.progress #XHR加载进度条
-    - toc.integrate #侧边目录展开并跟随
+    #- toc.integrate #侧边目录展开并跟随 有bug会导致首页偏右
   language: zh # 一些提示性的文字会变成中文
 
 extra:
