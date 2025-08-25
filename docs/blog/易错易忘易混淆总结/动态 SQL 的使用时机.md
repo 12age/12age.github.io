@@ -66,6 +66,10 @@
 
 - `ids` 可以是前端传来的 List，动态生成 `IN (1,2,3)`。
 
+如果报错提示找不到`ids`那么需要在mapper层中加`@Param`注解指明变量名
+
+![image](https://raw.githubusercontent.com/12age/blog-img/main/image-20250825083636-key0nlc.png)
+
 ---
 
 #### ④ 动态排序、分页、分表查询
