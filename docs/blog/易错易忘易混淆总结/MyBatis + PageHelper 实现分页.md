@@ -1,5 +1,9 @@
 ## MyBatis + PageHelper 实现分页
 
+![image](https://raw.githubusercontent.com/12age/blog-img/main/image-20250826194747-yijgmbj.png)
+
+![image](https://raw.githubusercontent.com/12age/blog-img/main/image-20250826194653-y58bha1.png)
+
 ---
 
 ### 1️⃣ 关键依赖
