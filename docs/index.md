@@ -51,6 +51,12 @@
             <h3>关于我</h3>
             <div style="color: gray;">我的简介与联系方式</div>
         </a>
+
+        <a href="https://forms.cloud.microsoft/r/5BNdMLyrBv" target="_blank" class="card">
+            <h3>有错误？</h3>
+            <div style="color: gray;">欢迎反馈</div>
+        </a>
+
     </div>
 
     <!-- 页脚 -->
