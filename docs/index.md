@@ -27,6 +27,11 @@
             <div style="color: gray;">实在是太容易混乱了</div>
         </a>
 
+        <a href="https://publish.obsidian.md/niuma/" class="card">
+            <h3>劉桑の筆記</h3>
+            <div style="color: gray;">肛哥的Obsidian笔记</div>
+        </a>
+
         <a href="blog/网站推荐/网站推荐/" class="card">
             <h3>网站推荐</h3>
             <div style="color: gray;">实用网站</div>
