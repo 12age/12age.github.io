@@ -3,7 +3,12 @@
     <script src="https://unpkg.com/live2d-widget@3.1.4/lib/L2Dwidget.min.js"></script>
     <!-- 首页标题 -->
     <h1>Rage.的博客</h1>
-    <p class="subtitle">记录生活与技术</p>
+    <!-- <p class="subtitle">记录生活与技术</p> -->
+    <div id="visitor-count">
+    <span id="visitor-welcome">Welcome! </span>
+    <img src="https://moe.8845.top/get/?name=Rage.%25E7%259A%2584%25E8%25AE%25A1%25E6%2595%25B0%25E5%2599%25A8&theme=moebooru" alt="">
+    <span> visitor.</span>
+    </div>
 
     <!-- 卡片 -->
     <div class="cards">

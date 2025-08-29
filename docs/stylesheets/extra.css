@@ -100,3 +100,9 @@
             --md-primary-fg-color--light: #ff4a94;
             --md-primary-fg-color--dark: #025470;
         }
+
+        #visitor-count {
+            text-align: center;
+            margin-bottom: 1em;
+        }
+
