@@ -156,6 +156,22 @@
 >
 > 在注解类的方法上加通知注解并跟切入点表达式，在方法内增强方法
 
+### 自定义注解
+
+[自定义注解](https://jxwi7qorep.feishu.cn/wiki/I4kywxgkXiyKFokWhUmcvcqvn8f#V0WCdMZqao348Xx0C5Qcxhu6ngd)
+
+```java
+/**
+ *  自定义注解，用于标识哪些方法需要记录日志
+ */
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface LogOperation {
+}
+```
+
+### 切入点表达式
+
 [通知](https://jxwi7qorep.feishu.cn/wiki/I4kywxgkXiyKFokWhUmcvcqvn8f#EdRfdQFRfoIodVxbWXAcQnWGncg)
 
 通知注解后跟切入点表达式
